@@ -1,0 +1,122 @@
+@import "../../../assets/scss/variables.scss";
+
+.ant-layout-sider{
+    background: $white !important;
+    .leftbar-inner{
+        min-height: calc(100vh - 100px);
+        display: flex;
+        flex-direction: column;
+        .upper-logo{
+            font-size: 36px;
+            font-weight: 700;
+            font-family: $font-secondary;
+            @media screen and (max-width:1600px) {
+                font-size: 28px;
+            }
+            a{
+                color: $text-primary;
+            }
+            h4{
+                color: $text-secondary;
+                font-style: italic;
+                font-size: 1.9rem;
+                margin-top: 10px;
+                @media screen and (max-width:1600px) {
+                    font-size: 1.7rem;
+                }
+                @media screen and (max-width:1400px) {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+        .menu-list{
+            margin-top: 5rem;
+            @media screen and (max-width:1400px) {
+                margin-top: 2rem;
+            }
+            ul {
+                list-style-type: none;
+                padding-left: 0;
+                margin-bottom: 10px;
+                li{
+                    padding: 5px 0;
+                    font-size: 16px;
+                    font-weight: 600;
+                    @media screen and (max-width:1600px) {
+                        font-size: 14px;
+                    }
+                    @media screen and (max-width:1400px) {
+                        font-size: 13px;
+                    }
+                    a{
+                        color: $text-secondary;
+                        &.active {
+                            color: $text-primary;
+                        }
+                    }
+                    &.bottom-menu{
+                        margin-top: 2rem;
+                        @media screen and (max-width:1400px) {
+                            margin-top: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+        .social-btn{
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            .ant-btn {
+                background: none;
+                padding: 0;
+                height: 25px;
+                border: 0;
+                margin-right: 10px;
+                width: 25px;
+                line-height: 25px;
+                display: flex;
+                align-items: center;
+                .icon {
+                    width: 22px;
+                    height: 20px;
+                    fill: $text-secondary;
+                    @media screen and (max-width:1600px) {
+                        width: 20px;
+                        height: 18px;
+                    }
+                }
+                &:hover {
+                    .icon {
+                        fill: $text-primary;
+                    }
+                }
+            }
+        }
+        .painting-left-info{
+            font-weight: 400;
+            margin-top: auto;
+            .tag{
+                font-size: 16px;
+                margin-bottom: 25px;
+                @media screen and (max-width:1400px) {
+                    font-size: 14px;
+                }
+            }
+            .title{
+                font-size: 20px;
+                margin-bottom: 25px;
+                @media screen and (max-width:1400px) {
+                    font-size: 16px;
+                }
+            }
+            p{
+                font-size: 14px;
+                margin-bottom: 10px;
+                @media screen and (max-width:1400px) {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}

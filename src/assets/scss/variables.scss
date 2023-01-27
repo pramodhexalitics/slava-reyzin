@@ -1,0 +1,30 @@
+$white: #fff;
+$black: #000;
+/*------Fonts-Faimily----------*/
+$font-family: 'Montserrat', sans-serif;
+$font-secondary: 'Perpetua';
+
+$primary-color: #1F1F1F; // primary color for all components
+$secondary-color: #6F6F6F;
+$success-color: #39D98A; // success state color
+$warning-color: #faad14; // warning state color
+$error-color: #E83D3D; // error state color
+
+$text-red: #E37059; // Red text color
+$text-primary: #1F1F1F;
+$text-secondary: #6F6F6F;
+$text-white: $white; // Red text color
+$link-color: $primary-color; // link color
+$input-bg: #F9F9F9;
+
+$body-background: #F4F9FC;
+$light-grey: #F6F6F6;
+$open-ticket:#BA3030;
+$font-size-base: 14px;
+$font-size-xlg: $font-size-base + 4px; //18px
+$font-size-lg: $font-size-base + 2px; //16px
+$font-size-sm: $font-size-base - 2px; //12px
+
+$border-base-color: #dae4ea;
+
+$input-border: $border-base-color;

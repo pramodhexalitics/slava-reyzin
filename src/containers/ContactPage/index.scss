@@ -1,0 +1,17 @@
+@import "../../assets/scss/variables.scss";
+
+.contact-page {
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+
+    h1 {
+        font-size: 40px;
+        font-family: $font-secondary;
+        margin-bottom: 1.5rem;
+    }
+
+    a {
+        font-weight: 500;
+    }
+}

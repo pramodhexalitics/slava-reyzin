@@ -1,0 +1,30 @@
+@import "../../assets/scss/variables.scss";
+
+.impressum-page {
+    h2 {
+        font-size: 40px;
+        font-family: $font-secondary;
+        margin-bottom: 1.5rem;
+    }
+
+    .dtl-row {
+        margin-bottom: 2rem;
+
+        h3 {
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        h4 {
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        p {
+            font-size: 16px;
+            font-weight: normal;
+            line-height: 1.6;
+            margin-bottom: 5px;
+        }
+    }
+}

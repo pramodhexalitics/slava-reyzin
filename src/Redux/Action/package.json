@@ -1,0 +1,68 @@
+{
+  "name": "newdashboard",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@amcharts/amcharts3-react": "^3.1.0",
+    "@amcharts/amcharts4": "^4.7.8",
+    "@amcharts/amcharts4-geodata": "^4.1.8",
+    "@hookform/resolvers": "^2.8.5",
+    "@material-table/core": "^0.2.11",
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "@material/checkbox": "^13.0.0",
+    "@stripe/react-stripe-js": "^1.1.2",
+    "@stripe/stripe-js": "^1.8.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@workday/canvas-kit-react-button": "^4.8.1",
+    "amcharts3": "github:amcharts/amcharts3",
+    "antd": "^4.17.3",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.5.0",
+    "cloudinary-react": "^1.6.7",
+    "highcharts": "^8.1.2",
+    "highcharts-react-official": "^3.0.0",
+    "lodash": "^4.17.15",
+    "material-ui-search-bar": "^1.0.0",
+    "moment": "^2.27.0",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.0.1",
+    "react-currency-format": "^1.0.0",
+    "react-dates": "^21.8.0",
+    "react-dom": "^16.13.1",
+    "react-hook-form": "^7.22.1",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "react-swipeable-views": "^0.13.9",
+    "react-time-range-slider": "^1.1.2",
+    "react-to-print": "^2.9.0",
+    "react-toastify": "^6.0.6",
+    "redux": "^4.0.5",
+    "redux-persist": "^6.0.0",
+    "validator": "^13.1.1",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "create" : "npm run-script build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

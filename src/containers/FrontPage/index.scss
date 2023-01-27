@@ -1,0 +1,68 @@
+@import "../../assets/scss/variables.scss";
+
+.frontpage-wrapper {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+
+    .slick-slider {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        .slick-slide{
+            height: 100vh;
+            width: 100vw;
+            .bg-image {
+                height: 100vh;
+                left: 0;
+                top: 0;
+                width: 100vw;
+                background-size: cover;
+                @media screen and (max-width:991px) {
+                    background-position: center;
+                }
+            }
+        }
+    }
+
+    .frontpage-inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100vh;
+        padding: 4.6875rem;
+        position: relative;
+        z-index: 2;
+
+        @media screen and (max-width:991px) {
+            padding: 2.5rem;
+        }
+
+        .logo {
+            font-family: $font-secondary;
+            font-size: 36px;
+            font-weight: bold;
+            color: $white;
+        }
+
+        .start-btn {
+            .ant-btn {
+                height: 50px;
+                border: 3px solid $white;
+                background: none;
+                min-width: 100px;
+                font-size: 16px;
+                font-weight: 700;
+                color: $white;
+                padding: 0 20px;
+                border-radius: 5px;
+
+                &:hover {
+                    background: $white;
+                    color: $black;
+                }
+            }
+        }
+    }
+}

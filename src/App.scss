@@ -1,0 +1,50 @@
+@import "./assets/scss/style.scss"; 
+
+.main-wrapper{
+    min-height: 100vh;
+    .mobile-header{
+        position: fixed;
+        top: 0;
+        width: 100vw;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+        left: 0;
+        background: $white;
+        z-index: 9;
+        .logo {
+            font-family: $font-secondary;
+            font-weight: 600;
+            font-size: 18px;
+        }
+        .menu-icon{
+            svg {
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+    .main-wrapper-inner{
+        padding: 50px;
+        display: flex;
+        align-items: flex-start;
+        @media screen and (max-width:1400px) {
+            padding: 40px 25px;
+        }
+        @media screen and (max-width:991px) {
+            padding: 50px 25px;
+        }
+        .ant-layout-sider {
+            position: sticky;
+            top: 50px;
+            @media screen and (max-width:991px) {
+                position: fixed;
+                background: $white;
+                z-index: 8;
+                box-shadow: 10px -12px 10px rgba(0,0,0,0.1);
+            }
+        }
+    }
+}

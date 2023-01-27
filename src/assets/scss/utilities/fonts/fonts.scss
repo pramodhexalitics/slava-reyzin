@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Perpetua';
+    src: url('../../../fonts/Perpetua.eot');
+    src: url('../../../fonts/Perpetua.eot?#iefix') format('embedded-opentype'),
+        url('../../../fonts/Perpetua.woff2') format('woff2'),
+        url('../../../fonts/Perpetua.woff') format('woff'),
+        url('../../../fonts/Perpetua.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Perpetua';
+    src: url('../../../fonts/Perpetua-Bold.eot');
+    src: url('../../../fonts/Perpetua-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../../../fonts/Perpetua-Bold.woff2') format('woff2'),
+        url('../../../fonts/Perpetua-Bold.woff') format('woff'),
+        url('../../../fonts/Perpetua-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
