@@ -1,6 +1,6 @@
-# react-erp-crm
+# slava-reyzin
 
-React Front-end for ERP-CRM
+slava-reyzin
 
 ## Getting started
 
